@@ -1,0 +1,8 @@
+<h1>Chart</h1>
+<p>Se muestran los graficos</p>
+<div>
+	<%= pie_chart Dimension.group(:name).count %>
+</div>
+<div>
+	<%= pie_chart Task.group(:name).count %>
+</div>

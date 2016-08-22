@@ -1,0 +1,15 @@
+<h1>Tasks#new</h1>
+ <%= form_for(@task) do |task| %>
+  <div class='service'>
+    <li class="col-md-3">
+      <div class="thumbnail">
+        <div class="caption">
+          <h4><%= task.name %></h4>
+          <p><%= task.description %></p>
+        </div>
+        <span>
+        </span>
+      </div>
+    </li>
+  </div>
+<% end %>
